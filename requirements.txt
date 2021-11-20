@@ -1,0 +1,11 @@
+fastapi==0.70.0
+joblib==0.15.1
+numpy==1.18.5
+pandas==1.0.5
+scikit_learn==1.0.1
+uvicorn == 0.11.3
+aiofiles==0.6.0
+python-multipart==0.0.5
+jinja2==2.11.2
+
+
