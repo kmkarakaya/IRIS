@@ -1,5 +1,4 @@
 
-
 pip freeze > requirements.txt
 
 
@@ -10,3 +9,4 @@ pipreqs /path/to/project
 
 Procfile
 web: gunicorn app:app
+web: uvicorn myServer:app --host=0.0.0.0 --port=${PORT:-5000}
